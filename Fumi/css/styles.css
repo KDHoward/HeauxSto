@@ -32,6 +32,8 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --darkgreen: #74691b;
+  
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -45,14 +47,17 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  color: #74691b;
 }
 
 html {
   font-family: sans-serif;
+  color: var(--darkgreen);
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -64,9 +69,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: var(--darkgreen);
   text-align: left;
-  background-image:linear-gradient(to bottom right, hotpink, gold);
+  background-image:( gold);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -87,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: var(--darkgreen);
 }
 
 abbr[title],
@@ -98,6 +104,7 @@ abbr[data-original-title] {
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+          color: #74691b;
 }
 
 address {
@@ -363,6 +370,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
+  color: #74691b;
 }
 
 h1, .h1 {
@@ -10012,6 +10020,7 @@ h3 {
 }
 .page-section {
   padding: 6rem 0;
+  background-color: goldenrod;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10092,7 +10101,7 @@ h3 {
   background-image: linear-gradient(to bottom right, deeppink, gold);
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #74691b;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
